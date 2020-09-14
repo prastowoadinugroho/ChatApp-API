@@ -1,0 +1,22 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Build Chat App",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Prastowo",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.17.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.3.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
